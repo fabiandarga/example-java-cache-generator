@@ -14,7 +14,7 @@ public class Main {
         String[] colors = {"yellow", "red", "blue", "green"};
         Random random = new Random();
 
-        Connection conn = null;
+        Connection conn;
 
         try {
             conn = DriverManager.getConnection(url, user, password);
